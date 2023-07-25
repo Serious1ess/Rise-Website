@@ -73,6 +73,7 @@ $langData.en = {
     "The smart 365-day-per-year food subscription will make you eat healthy again. Tailored to your personal tastes and nutritional needs.",
   PORTFOLIOPROJCTTEXT:
     "Passionate front-end developer with a desire to learn andgrow in a collaborative team environment. Skilled in HTML,CSS, and JavaScript. Excels at creating pixel-perfectdesigns and working with cross-browser compatibility issues",
+  PHNENMBR: "Phone Number",
 };
 
 $langData.ar = {
@@ -143,6 +144,7 @@ $langData.ar = {
     "الاشتراك الذكي للطعام 365 يومًا في السنة سيجعلك تتناول طعامًا صحيًا مرة أخرى. مصممة لتناسب أذواقك الشخصية واحتياجاتك الغذائية.",
   PORTFOLIOPROJCTTEXT:
     "مطور الواجهة الأمامية شغوف برغبة في التعلم والنمو في بيئة جماعية تعاونية. ماهر في HTML و CSS وجافا سكريبت. يتفوق في إنشاء تصميمات مثالية للبكسل والعمل مع مشكلات التوافق عبر المستعرضات",
+  PHNENMBR: "رقم التليفون",
 };
 $langData.tr = {
   WPLNCMPGNSTHTCMPNSAPPRCTE: "Etkili Kampanyalarla Markanızı Güçlendirin",
@@ -212,6 +214,7 @@ $langData.tr = {
   PORTFOLIOPROJCTTEXT:
     "Öğrenmeye ve işbirlikçi bir takım ortamında büyümeye istekli tutkulu bir ön uç geliştirici. HTML, CSS ve JavaScript konusunda uzmanlaşmıştır. Piksel-perfect tasarımlar oluşturmada ve tarayıcı uyumluluk sorunlarıyla çalışmada başarılıdır.",
   TRKSH: "Türkçe",
+  PHNENMBR: "Telefon numarası",
 };
 
 let langSelector = document.querySelector("#language-picker-select");

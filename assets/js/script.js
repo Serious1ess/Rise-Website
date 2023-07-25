@@ -52,8 +52,8 @@ let date = new Date().toLocaleDateString().split("/")[2];
 let html = `&copy; ${date} <a class="copyright-link">RISE</a>. All Right
 Reserved`;
 document.querySelector(".copyright").innerHTML = html;
-document.querySelector(".copyright").style= "font-family: 'beIN Black', sans-serif;"
-
+document.querySelector(".copyright").style =
+  "font-family: 'beIN Black', sans-serif;";
 
 let numbers = document.querySelectorAll(".stats-title");
 for (let numElment of numbers) {
@@ -97,53 +97,51 @@ window.onclick = function (event) {
   }
 };
 
-(function(){
+(function () {
   emailjs.init("LC59vneQ0j99KJqAj");
 })();
 
-function sendEmail(){
-  var params={
-   name :document.getElementById('name').value,
-   email:document.getElementById('email').value,
-   message: document.getElementById('message').value
-  }
-  const serviceID = 'service_rpaya2e'
-  const templateID = 'template_mf159eu'
-  
-  emailjs.send(serviceID, templateID, params)
-  .then(res=>{
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-    console.log(res);
-    alert("Your message sent successfully!!")
-    
-  })
-  .catch(err=>console.log(err));
-  
+function sendEmail() {
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    message: document.getElementById("message").value,
+  };
+  const serviceID = "service_rpaya2e";
+  const templateID = "template_mf159eu";
+
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("message").value = "";
+      console.log(res);
+      alert("Your message sent successfully!!");
+    })
+    .catch((err) => console.log(err));
 }
 
-
-/// cookies 
+/// cookies
 
 function getCookie(cName) {
   const name = cName + "=";
   const cDecoded = decodeURIComponent(document.cookie); //to be careful
-  const cArr = cDecoded .split('; ');
+  const cArr = cDecoded.split("; ");
   let res;
-  cArr.forEach(val => {
-      if (val.indexOf(name) === 0) res = val.substring(name.length);
-  })
+  cArr.forEach((val) => {
+    if (val.indexOf(name) === 0) res = val.substring(name.length);
+  });
   return res;
 }
 
 function setCookie(clang, cValue, expDays) {
   // if(!getCookie('lang')){
   let date = new Date();
-  date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
+  date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
   const expires = "expires=" + date.toUTCString();
   document.cookie = clang + "=" + cValue + "; " + expires + "; path=/";
   // }
 }
-
-
