@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rise Website</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      href="https://db.onlinewebfonts.com/c/125063e353c1f65c55ba1e3811969217?family=GE+SS+Two+Medium"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link id="css-stylesheet" rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/cairo" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/bein-black" rel="stylesheet" />
+  </head>
+
+  <body id="top">
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+</script> -->
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <a href="#">
+          <h1 class="logo hover">RISE</h1>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">RISE</a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a
+                href="#about"
+                translate="ABT"
+                class="navbar-link"
+                data-navbar-link
+                >About</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a
+                href="#services"
+                translate="SRVCS"
+                class="navbar-link"
+                data-navbar-link
+                >Services</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a
+                href="#features"
+                translate="FTRS"
+                class="navbar-link"
+                data-navbar-link
+                >Features</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a
+                href="#projects"
+                translate="PRJCTS"
+                class="navbar-link"
+                data-navbar-link
+                >Projects</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a
+                translate="CONTACTUS"
+                href="#ContactUs"
+                class="navbar-link"
+                data-navbar-link
+                >Contact Us</a
+              >
+            </li>
+            <li class="navbar-item">
+              <div class="data-navbar-link language-picker js-language-picker">
+                <select id="language-picker-select" class="navbar-link">
+                  <option translate="ENGLSH" lang="en" value="en" selected>
+                    English
+                  </option>
+                  <option translate="TRKSH" lang="tr" value="tr">
+                    Turkish
+                  </option>
+                  <option translate="ARBC" lang="ar" value="ar">Arabic</option>
+
+                  <!-- other language options -->
+                </select>
+              </div>
+              <button
+                class="language-picker__button"
+                aria-label="English, Select your language"
+                aria-expanded="false"
+                aria-controls="language-picker-dropdown"
+              >
+                <span
+                  aria-hidden="true"
+                  class="language-picker__flag language-picker__flag--english"
+                ></span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <a id="myBtn" class="btn" style="cursor: pointer">
+          <ion-icon name="mail-outline"></ion-icon>
+
+          <span class="email-btn-text" translate="SENDADIRECTEMAIL"
+            >Send A Message</span
+          >
+        </a>
+
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle" translate="strturrod">
+                We Are Marketing Campaign Planners
+              </p>
+
+              <h2 translate="WPLNCMPGNSTHTCMPNSAPPRCTE" class="h2 hero-title">
+                We Plan Campaigns That Companies Appreciate
+              </h2>
+
+              <p translate="woffrsltn" class="hero-text">
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque vitae ante at elit fringilla ac at purus.
+              </p>
+
+              <a
+                translate="LRNMR"
+                href="#services"
+                style="width: 164px"
+                class="btn"
+                >Learn More</a
+              >
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/002.png"
+                width="694"
+                height="529"
+                loading="lazy"
+                alt="hero-banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+          </div>
+        </section>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content message-modal-content">
+            <div class="modal-header message-modal-header">
+              <span class="close">&times;</span>
+              <h2 translate="SENDADIRECTEMAIL">Send Direct Email</h2>
+            </div>
+            <div class="modal-body">
+              <form onsubmit="sendEmail(); reset(); return false">
+                <div style="margin-top: 20px">
+                  <label translate="NAME" style="margin-left: 9px">Name:</label>
+                  <input
+                    class="input-modal"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="  mario"
+                    required
+                  />
+                </div>
+                <div style="margin-top: 20px">
+                  <label translate="EMAIL" style="margin-left: 9px"
+                    >Email:</label
+                  >
+                  <input
+                    id="email"
+                    class="input-modal"
+                    type="text"
+                    name="email"
+                    placeholder="  mario@example.com"
+                    required
+                  />
+                </div>
+                <div style="margin-top: 20px">
+                  <textarea
+                    translate="YOURMESSAGE"
+                    class="input-modal"
+                    name="message"
+                    row="7"
+                    id="message"
+                    placeholder=" Your message"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  translate="SENDMESSAGE"
+                  type="submit"
+                  class="btn btn-primary send-email"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+            <!-- <div class="modal-footer">
+              <h3>Modal Footer</h3>
+            </div> -->
+          </div>
+        </div>
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/004.png"
+                width="700"
+                height="532"
+                loading="lazy"
+                alt="about banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+
+            <div class="about-content">
+              <h2 translate="WHYUS" class="h2 section-title underline">
+                Why Us.
+              </h2>
+
+              <p translate="whydscr" class="about-text">
+                In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada
+                magna. Nulla vel maximus risus. Donec volutpat metus lacinia
+                risus accumsan, ac bibendum libero efficitur. Pellentesque nec
+                nisi sit amet magna tempus hendrerit ut a odio.
+              </p>
+
+              <ul class="stats-list">
+                <li class="stats-card">
+                  <p class="h3 stats-title">3</p>
+
+                  <p translate="prjclnch" class="stats-text">Project Lunched</p>
+                </li>
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">4</p>
+
+                  <p translate="YRSEPR" class="stats-text">Years Completed</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" id="services">
+          <div class="container">
+            <h2 translate="ORSRVS" class="h2 section-title underline">
+              Our Speciallization
+            </h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+
+                  <h3 translate="BLDWBS" class="h3 title">
+                    Strategy & Research
+                  </h3>
+
+                  <p translate="BLDWBDES" class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci.
+                    Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+                </div>
+              </li>
+
+              <!-- <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="brush-outline"></ion-icon>
+                  </div>
+
+                  <h3 translate="VSID" class="h3 title">Web Development</h3>
+
+                  <p translate="VSIDDES" class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci.
+                    Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+                </div>
+              </li> -->
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                  </div>
+
+                  <h3 translate="CRADCMP" class="h3 title">Web Solution</h3>
+
+                  <p translate="CRADCMPDES" class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci.
+                    Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+
+                  <!-- <button class="card-btn" aria-label="Show More">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </button> -->
+                </div>
+              </li>
+              <!-- <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 translate="CNMRKDES" class="h3 title">Web Development</h3>
+
+                  <p translate="CNMRKDESDES" class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci.
+                    Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+                </div>
+              </li> -->
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="film-outline"></ion-icon>
+                  </div>
+
+                  <h3 translate="FLMEDVD" class="h3 title">Web Development</h3>
+
+                  <p translate="FLMEDVDDES" class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci.
+                    Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features" id="features">
+          <div class="container">
+            <h2 translate="ORFTRS" class="h2 section-title underline">
+              Our Features
+            </h2>
+
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="build-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 translate="PSTDLSUP" class="h3 title">
+                      Idea & Analysis
+                    </h3>
+
+                    <p translate="PSTDLSUPDES" class="text">
+                      Praesent tincidunt congue est ut hendrerit. Pellentesque
+                      et eros sit amet ipsum venenatis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 translate="CNTNDV" class="h3 title">Designing</h3>
+
+                    <p translate="CNTNDVDES" class="text">
+                      Praesent tincidunt congue est ut hendrerit. Pellentesque
+                      et eros sit amet ipsum venenatis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <figure class="features-banner">
+              <img
+                src="./assets/images/003.png"
+                width="369"
+                height="318"
+                loading="lazy"
+                alt="Features Banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="brush-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 translate="VSID" class="h3 title">Development</h3>
+
+                    <p translate="VSIDDES" class="text">
+                      Praesent tincidunt congue est ut hendrerit. Pellentesque
+                      et eros sit amet ipsum venenatis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="id-card-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 translate="SCLMNG" class="h3 title">
+                      Testing & Lunching
+                    </h3>
+
+                    <p translate="SCLMNGDES" class="text">
+                      Praesent tincidunt congue est ut hendrerit. Pellentesque
+                      et eros sit amet ipsum venenatis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #projects
+      -->
+
+        <section class="section blog" id="projects">
+          <div class="container">
+            <h2 translate="PRJCTS" class="h2 section-title underline">
+              Projects
+            </h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a href="https://www.kidsrainbow.org/" target="_blank">
+                      <img
+                        src="./assets/images/proj1.png"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Organiztion website"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a href="https://www.kidsrainbow.org/" target="_blank">
+                        kids Rainbow
+                      </a>
+                    </h3>
+
+                    <p translate="KIDSRANBOWPROJCTTXT" class="text">
+                      Kids Rainbow is a safe and supporting environment that
+                      provides learning opportunities for refugees children
+                      approaching school age in Turkey. Our mission is to fight
+                      for equal access to quality education
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2022-03-07">7 March, 2022</time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a
+                      href="https://singular-bonbon-c13d1a.netlify.app/"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/images/proj2.png"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Organiztion website"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a
+                        href="https://singular-bonbon-c13d1a.netlify.app/"
+                        target="_blank"
+                      >
+                        Omnifood
+                      </a>
+                    </h3>
+
+                    <p translate="OMNFOODPROJCTTEXT" class="text">
+                      The smart 365-days-per-year food subscription that will
+                      make you eat healthy again. Tailored to your personal
+                      tastes and nutritional needs.
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2019-03-07">July 10 , 2020</time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a
+                      href="https://mhamut-muselleti.netlify.app/"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/images/pro3.png"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Organiztion website"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a
+                        href="https://mhamut-muselleti.netlify.app/"
+                        target="_blank"
+                      >
+                        Portfolio
+                      </a>
+                    </h3>
+
+                    <p translate="PORTFOLIOPROJCTTEXT" class="text">
+                      Passionate front-end developer with a desire to learn and
+                      grow in a collaborative team environment. Skilled in HTML,
+                      CSS, and JavaScript. Excels at creating pixel-perfect
+                      designs and working with cross-browser compatibility
+                      issues
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2019-03-07">7 April, 2019</time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer id="ContactUs" class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">RISE</a>
+
+            <p translate="coprght" class="copyright"></p>
+
+            <ul class="social-list" style="margin-top: 50px">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100094893919616"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100094893919616"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100094893919616"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/+905522257621"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p translate="ORSRVS" class="footer-list-title">Our Services</p>
+            </li>
+
+            <li>
+              <p translate="BLDWBS" class="footer-link">Strategy & Research</p>
+            </li>
+
+            <li>
+              <p translate="VSID" class="footer-link">Web Development</p>
+            </li>
+
+            <li>
+              <p translate="CRADCMP" class="footer-link">Web Solution</p>
+            </li>
+
+            <li>
+              <p translate="CNMRKDES" class="footer-link">Digital Marketing</p>
+            </li>
+
+            <li>
+              <p translate="SCLMNG" href="" class="footer-link">App Design</p>
+            </li>
+          </ul>
+
+          <!-- <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Other links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Support</a>
+            </li>
+          </ul> -->
+
+          <ul class="footer-list">
+            <li>
+              <p translate="CONTACTUS" class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="call"></ion-icon>
+              </div>
+
+              <div style="direction: ltr">
+                <a href="tel:+905522257621" class="footer-item-link"
+                  >+905522257621</a
+                >
+                <a href="tel:+5364457570" class="footer-item-link"
+                  >+905364457570</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="mail"></ion-icon>
+              </div>
+
+              <div>
+                <a
+                  href="mailto:info.rise.ltd@gmail.com"
+                  class="footer-item-link"
+                  >info.rise.ltd@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="footer-item-link">Turkey, Istanbul</address>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <div class="footer-bottom">
+        <p translate="coprght" class="copyright"></p>
+      </div> -->
+    </footer>
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/translate.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
