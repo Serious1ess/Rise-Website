@@ -145,3 +145,8 @@ function setCookie(clang, cValue, expDays) {
   document.cookie = clang + "=" + cValue + "; " + expires + "; path=/";
   // }
 }
+const phoneInputField = document.querySelector("#phone");
+// const phoneInput = window.intlTelInput(phoneInputField, {
+//   utilsScript:
+//     "",
+// });
