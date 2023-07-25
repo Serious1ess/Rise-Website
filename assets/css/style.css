@@ -817,6 +817,11 @@ body::-webkit-scrollbar {
   /**
    * REUSED STYLE
    */
+  .footer-brand {
+    grid-column: 1 / 5;
+    margin-top: 53px;
+    margin-left: -4px;
+  }
   .email-btn-text {
     display: none;
   }
@@ -992,7 +997,7 @@ body::-webkit-scrollbar {
     min-height: 600px;
     display: grid;
     place-items: center;
-    background-position: 0px bottom, center, center;
+    background-position: -166px bottom, center, center;
   }
 
   .hero-content {
@@ -1155,10 +1160,6 @@ body::-webkit-scrollbar {
 
   .footer-top .container {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .footer-brand {
-    grid-column: 1 / 5;
   }
 
   .footer-brand .text {
