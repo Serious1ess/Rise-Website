@@ -849,13 +849,12 @@ body::-webkit-scrollbar {
   .section-title {
     --fs-3: 3.6rem;
   }
-  */
 
   /**
    * HEADER
    */
 
-  /* .header .btn {
+  .header .btn {
     display: flex;
     align-items: center;
     gap: 5px;
