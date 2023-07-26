@@ -1105,6 +1105,7 @@ body::-webkit-scrollbar {
 
   .hero {
     min-height: 700px;
+    background-size: 100%;
   }
 
   /**
