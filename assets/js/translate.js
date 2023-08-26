@@ -74,6 +74,8 @@ $langData.en = {
   PORTFOLIOPROJCTTEXT:
     "Passionate front-end developer with a desire to learn andgrow in a collaborative team environment. Skilled in HTML,CSS, and JavaScript. Excels at creating pixel-perfectdesigns and working with cross-browser compatibility issues",
   PHNENMBR: "Phone Number",
+  MUGSMINAPROJCTTXT:
+    "MugsMania is your ultimate destination for creative andstylish drinkware that adds a touch of artistry to your everyday moments. We are passionate about transforming simple mugs, water cups, and bottles into unique canvases that reflect your individuality and personal style",
 };
 
 $langData.ar = {
@@ -145,6 +147,8 @@ $langData.ar = {
   PORTFOLIOPROJCTTEXT:
     "مطور الواجهة الأمامية شغوف برغبة في التعلم والنمو في بيئة جماعية تعاونية. ماهر في HTML و CSS وجافا سكريبت. يتفوق في إنشاء تصميمات مثالية للبكسل والعمل مع مشكلات التوافق عبر المستعرضات",
   PHNENMBR: "رقم التليفون",
+  MUGSMINAPROJCTTXT:
+    "ماغزمانيا هي وجهتك النهائية للأواني المبتكرة والأنيقة التي تضيف لمسة فنية إلى لحظاتك اليومية. نحن مهتمون بتحويل الأكواب البسيطة وأكواب الماء والزجاجات إلى لوحات فريدة تعكس شخصيتك وأسلوبك الشخصي.",
 };
 $langData.tr = {
   WPLNCMPGNSTHTCMPNSAPPRCTE: "Etkili Kampanyalarla Markanızı Güçlendirin",
@@ -215,6 +219,8 @@ $langData.tr = {
     "Öğrenmeye ve işbirlikçi bir takım ortamında büyümeye istekli tutkulu bir ön uç geliştirici. HTML, CSS ve JavaScript konusunda uzmanlaşmıştır. Piksel-perfect tasarımlar oluşturmada ve tarayıcı uyumluluk sorunlarıyla çalışmada başarılıdır.",
   TRKSH: "Türkçe",
   PHNENMBR: "Telefon numarası",
+  MUGSMINAPROJCTTXT:
+    "MugsMania, günlük anlarınıza sanatsal bir dokunuş katan yaratıcı ve şık içecek ürünlerinin en son durak noktasıdır. Basit kupaları, su bardaklarını ve şişeleri bireyselliğinizi ve kişisel stilinizi yansıtan benzersiz tuvallara dönüştürme konusundaki tutkumuzla doluyuz.",
 };
 
 let langSelector = document.querySelector("#language-picker-select");
