@@ -74,8 +74,8 @@ $langData.en = {
   PORTFOLIOPROJCTTEXT:
     "Passionate front-end developer with a desire to learn andgrow in a collaborative team environment. Skilled in HTML,CSS, and JavaScript. Excels at creating pixel-perfectdesigns and working with cross-browser compatibility issues",
   PHNENMBR: "Phone Number",
-  MUGSMINAPROJCTTXT:
-    "MugsMania is your ultimate destination for creative andstylish drinkware that adds a touch of artistry to your everyday moments. We are passionate about transforming simple mugs, water cups, and bottles into unique canvases that reflect your individuality and personal style",
+  BRVSAPROJCTTXT:
+    "Breevos is a brand under the esteemed umbrella of RISEMEDYA, born in 2023 with a passionate vision to elevate your home and kitchen experiences. At Breevos, we believe that your living spaces should not only be functional but also reflect your unique style and personality.",
 };
 
 $langData.ar = {
@@ -147,8 +147,8 @@ $langData.ar = {
   PORTFOLIOPROJCTTEXT:
     "مطور الواجهة الأمامية شغوف برغبة في التعلم والنمو في بيئة جماعية تعاونية. ماهر في HTML و CSS وجافا سكريبت. يتفوق في إنشاء تصميمات مثالية للبكسل والعمل مع مشكلات التوافق عبر المستعرضات",
   PHNENMBR: "رقم التليفون",
-  MUGSMINAPROJCTTXT:
-    "ماغزمانيا هي وجهتك النهائية للأواني المبتكرة والأنيقة التي تضيف لمسة فنية إلى لحظاتك اليومية. نحن مهتمون بتحويل الأكواب البسيطة وأكواب الماء والزجاجات إلى لوحات فريدة تعكس شخصيتك وأسلوبك الشخصي.",
+  BRVSAPROJCTTXT:
+    "هي علامة تجارية ولدت برؤية عاطفية للارتقاء بتجربة منزلك ومطبخك. نحن نؤمن بأن مساحات المعيشة الخاصة بك لا ينبغي أن تكون عملية فحسب، بل يجب أن تعكس أيضًا أسلوبك وشخصيتك الفريدة.",
 };
 $langData.tr = {
   WPLNCMPGNSTHTCMPNSAPPRCTE: "Etkili Kampanyalarla Markanızı Güçlendirin",
@@ -219,8 +219,8 @@ $langData.tr = {
     "Öğrenmeye ve işbirlikçi bir takım ortamında büyümeye istekli tutkulu bir ön uç geliştirici. HTML, CSS ve JavaScript konusunda uzmanlaşmıştır. Piksel-perfect tasarımlar oluşturmada ve tarayıcı uyumluluk sorunlarıyla çalışmada başarılıdır.",
   TRKSH: "Türkçe",
   PHNENMBR: "Telefon numarası",
-  MUGSMINAPROJCTTXT:
-    "MugsMania, günlük anlarınıza sanatsal bir dokunuş katan yaratıcı ve şık içecek ürünlerinin en son durak noktasıdır. Basit kupaları, su bardaklarını ve şişeleri bireyselliğinizi ve kişisel stilinizi yansıtan benzersiz tuvallara dönüştürme konusundaki tutkumuzla doluyuz.",
+  BRVSAPROJCTTXT:
+    "Breevos, 2023 yılında ortaya çıkan ve ev ve mutfak deneyimlerinizi yükseltme vizyonuyla RISEMEDYA'nın değerli çatısı altında yer alan bir markadır. Breevos olarak, yaşam alanlarınızın sadece işlevsel olmaması gerektiğine, aynı zamanda benzersiz stilinizi ve kişiliğinizi yansıtması gerektiğine inanıyoruz.",
 };
 
 let langSelector = document.querySelector("#language-picker-select");
