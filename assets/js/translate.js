@@ -2,7 +2,7 @@ var $langData = {};
 if (getCookie("lang")) {
   var $userLang = getCookie("lang");
 } else {
-  $userLang = "en";
+  $userLang = "ar";
 }
 var $hrefLink = "./assets/css/style.css";
 $langData.en = {
@@ -70,7 +70,7 @@ $langData.en = {
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow is a safe and supportive environment that provides learning opportunities for refugees children approaching school age in Turkey. Our mission is to fight for equal access to quality education",
   OMNFOODPROJCTTEXT:
-    "The smart 365-day-per-year food subscription will make you eat healthy again. Tailored to your personal tastes and nutritional needs.",
+    "Sultana Caravan Company is strong in Turkey regarding global production and is ready to accompany you and your dreams all over the world. If you are looking for a unique and exciting experience, our caravans offer you the perfect combination of comfort and freedom.",
   PORTFOLIOPROJCTTEXT:
     "Passionate front-end developer with a desire to learn andgrow in a collaborative team environment. Skilled in HTML,CSS, and JavaScript. Excels at creating pixel-perfectdesigns and working with cross-browser compatibility issues",
   PHNENMBR: "Phone Number",
@@ -143,7 +143,7 @@ $langData.ar = {
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow هي بيئة آمنة وداعمة توفر فرص التعلم للأطفال اللاجئين الذين يقتربون من سن المدرسة في تركيا. مهمتنا هي الكفاح من أجل المساواة في الحصول على تعليم جيد",
   OMNFOODPROJCTTEXT:
-    "الاشتراك الذكي للطعام 365 يومًا في السنة سيجعلك تتناول طعامًا صحيًا مرة أخرى. مصممة لتناسب أذواقك الشخصية واحتياجاتك الغذائية.",
+    "شركة سلطانه كرفان قوية في تركيا بالنسبة للإنتاج العالمي وجاهزة لمرافقتك ومرافقة أحلامك في جميع أنحاء العالم فإن كنت تبحث عن تجربة فريدة ومثيرة، فإن كرفاناتنا تقدم لك المزيج المثالي بين الراحة والحرية.",
   PORTFOLIOPROJCTTEXT:
     "مطور الواجهة الأمامية شغوف برغبة في التعلم والنمو في بيئة جماعية تعاونية. ماهر في HTML و CSS وجافا سكريبت. يتفوق في إنشاء تصميمات مثالية للبكسل والعمل مع مشكلات التوافق عبر المستعرضات",
   PHNENMBR: "رقم التليفون",
@@ -214,7 +214,7 @@ $langData.tr = {
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow, Türkiye'deki okul çağına yaklaşan mülteci çocuklar için öğrenme fırsatları sunan güvenli ve destekleyici bir ortamdır. Misyonumuz, kaliteli eğitime eşit erişim için mücadele etmektir.",
   OMNFOODPROJCTTEXT:
-    "365 gün boyunca akıllıca beslenmenizi sağlayacak yiyecek aboneliği. Kişisel zevklerinize ve beslenme ihtiyaçlarınıza göre özelleştirilmiştir.",
+    "Sultana Caravan Company, global üretim konusunda Türkiye'de güçlü olup, dünyanın her yerinde size ve hayallerinize eşlik etmeye hazırdır. Eşsiz ve heyecan verici bir deneyim arıyorsanız karavanlarımız size konfor ve özgürlüğün mükemmel birleşimini sunuyor.",
   PORTFOLIOPROJCTTEXT:
     "Öğrenmeye ve işbirlikçi bir takım ortamında büyümeye istekli tutkulu bir ön uç geliştirici. HTML, CSS ve JavaScript konusunda uzmanlaşmıştır. Piksel-perfect tasarımlar oluşturmada ve tarayıcı uyumluluk sorunlarıyla çalışmada başarılıdır.",
   TRKSH: "Türkçe",
@@ -291,4 +291,5 @@ function StringToTranslateCode(input) {
   // processedString.replace(/\s/g, '');
   return processedString;
 }
+// $userLang = "ar";
 changLang();
