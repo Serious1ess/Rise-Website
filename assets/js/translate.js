@@ -75,7 +75,7 @@ $langData.en = {
     "Passionate front-end developer with a desire to learn andgrow in a collaborative team environment. Skilled in HTML,CSS, and JavaScript. Excels at creating pixel-perfectdesigns and working with cross-browser compatibility issues",
   PHNENMBR: "Phone Number",
   BRVSAPROJCTTXT:
-    "Breevos is a brand under the esteemed umbrella of RISEMEDYA, born in 2023 with a passionate vision to elevate your home and kitchen experiences. At Breevos, we believe that your living spaces should not only be functional but also reflect your unique style and personality.",
+    "Breevos  Store A unique brand under the RISE MEDYA umbrella, founded in 2023, your ultimate destination for all things beauty and self-care. At Breevos, we believe that beauty is more than just skin deep – it’s a reflection of your unique essence, your confidence, and your journey to self-love and empowerment",
 };
 
 $langData.ar = {
@@ -148,7 +148,7 @@ $langData.ar = {
     "مطور الواجهة الأمامية شغوف برغبة في التعلم والنمو في بيئة جماعية تعاونية. ماهر في HTML و CSS وجافا سكريبت. يتفوق في إنشاء تصميمات مثالية للبكسل والعمل مع مشكلات التوافق عبر المستعرضات",
   PHNENMBR: "رقم التليفون",
   BRVSAPROJCTTXT:
-    "هي علامة تجارية ولدت برؤية عاطفية للارتقاء بتجربة منزلك ومطبخك. نحن نؤمن بأن مساحات المعيشة الخاصة بك لا ينبغي أن تكون عملية فحسب، بل يجب أن تعكس أيضًا أسلوبك وشخصيتك الفريدة.",
+    "متجر بريفوس علامة تجارية فريدة من نوعها تحت مظلة RISE MEDYA، تأسست عام 2023، وجهتك النهائية لكل ما يتعلق بالجمال والعناية الذاتية. في بريفوس، نؤمن بأن الجمال ليس مجرد عمق للبشرة - إنه انعكاس لجوهرك الفريد، وثقتك، ورحلتك إلى حب الذات والتمكين.",
 };
 $langData.tr = {
   WPLNCMPGNSTHTCMPNSAPPRCTE: "Etkili Kampanyalarla Markanızı Güçlendirin",
@@ -220,7 +220,7 @@ $langData.tr = {
   TRKSH: "Türkçe",
   PHNENMBR: "Telefon numarası",
   BRVSAPROJCTTXT:
-    "Breevos, 2023 yılında ortaya çıkan ve ev ve mutfak deneyimlerinizi yükseltme vizyonuyla RISEMEDYA'nın değerli çatısı altında yer alan bir markadır. Breevos olarak, yaşam alanlarınızın sadece işlevsel olmaması gerektiğine, aynı zamanda benzersiz stilinizi ve kişiliğinizi yansıtması gerektiğine inanıyoruz.",
+    "Breevos Mağazası 2023 yılında kurulan RISE MEDYA şemsiyesi altında benzersiz bir marka, güzellik ve kişisel bakımla ilgili her şey için nihai varış noktanız. Breevos'ta güzelliğin sadece derinin ötesinde bir şey olduğuna inanıyoruz; bu, benzersiz özünüzün, güveninizin ve kendinizi sevme ve güçlenme yolculuğunuzun bir yansımasıdır.",
 };
 
 let langSelector = document.querySelector("#language-picker-select");

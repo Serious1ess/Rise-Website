@@ -9,35 +9,41 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-@import url(https://db.onlinewebfonts.com/c/125063e353c1f65c55ba1e3811969217?family=GE+SS+Two+Medium);
 @font-face {
   font-family: "GE SS Two Medium";
-  src: url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.eot");
-  src: url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.eot?#iefix")
+  src: url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.eot");
+  src: url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.eot")
       format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.ttf")
+    url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.woff")
       format("truetype"),
-    url("https://db.onlinewebfonts.com/t/125063e353c1f65c55ba1e3811969217.svg#GE SS Two Medium")
-      format("svg");
+    url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.woff2")
+      format("woff"),
+    url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.ttf")
+      format("truetype"),
+    url("/fonts/GEtwoMedium/125063e353c1f65c55ba1e3811969217.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Moki W00 Base";
-  src: url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.eot");
-  src: url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.eot?#iefix")
+  src: url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.eot");
+  src: url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.eot?#iefix")
       format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.woff2")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.woff2")
       format("woff2"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.woff")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.woff")
       format("woff"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.ttf")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.ttf")
       format("truetype"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.svg#Moki W00 Base")
+    url("/fonts/Fonts0Moki/Fonts0Moki/50c324e2f4000de820712a28cb834fac.svg")
       format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css");
 :root {
   /**

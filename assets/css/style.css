@@ -5,21 +5,26 @@
 /**
  * copyright 2022 codewithsadee
  */
-@import url(https://db.onlinewebfonts.com/c/50c324e2f4000de820712a28cb834fac?family=Moki+W00+Base);
+
 @font-face {
   font-family: "Moki W00 Base";
-  src: url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.eot");
-  src: url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.eot?#iefix")
+  src: url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.eot");
+  src: url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.eot?#iefix")
       format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.woff2")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.woff2")
       format("woff2"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.woff")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.woff")
       format("woff"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.ttf")
+    url("/fonts/Fonts0Moki/50c324e2f4000de820712a28cb834fac.ttf")
       format("truetype"),
-    url("https://db.onlinewebfonts.com/t/50c324e2f4000de820712a28cb834fac.svg#Moki W00 Base")
+    url("/fonts/Fonts0Moki/Fonts0Moki/50c324e2f4000de820712a28cb834fac.svg")
       format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css");
 /*-----------------------------------*\
   #CUSTOM PROPERTY
