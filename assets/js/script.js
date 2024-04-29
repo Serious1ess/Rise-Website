@@ -48,14 +48,20 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
-let date = new Date().toLocaleDateString().split("/")[2];
-let html = `&copy; ${date} <a class="copyright-link">RISE</a>. All Right
-Reserved`;
-document.querySelector(".copyright").innerHTML = html;
-document.querySelector(".copyright").style =
-  "font-family: 'beIN Black', sans-serif;";
+// Get the current year
+let year = new Date().getFullYear();
 
+// Construct the HTML string
+let html = `<p style="width: 300px;"> RİSE MEDYA DANIŞMANLIK VE TİCARET LİMİTED ŞİRKETİ</p><p>© ${year}. All rights reserved.</p>`;
+
+// Set the HTML and font-family
+document.querySelector(".copyright").innerHTML = html;
+document.querySelector(".copyright").style.fontFamily =
+  "'beIN Black', sans-serif;";
+
+// If you have any other elements with class "stats-title", you can select and store them in the `numbers` variable as before
 let numbers = document.querySelectorAll(".stats-title");
+
 for (let numElment of numbers) {
   countAnimtion(numElment);
 }

@@ -65,7 +65,7 @@ $langData.en = {
     "We believe that cooperation with customers does not end after the project is delivered. Rather, we provide continuous support after delivery to ensure that the project continues to run smoothly and meet the customer's needs.",
 
   ORPRJCT: "Our Projects",
-  coprght: "Copyright RISE 2023 © All rights reserved.",
+
   ORFTRS: "Our Features",
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow is a safe and supportive environment that provides learning opportunities for refugees children approaching school age in Turkey. Our mission is to fight for equal access to quality education",
@@ -138,7 +138,7 @@ $langData.ar = {
     "نؤمن بأن التعاون مع العملاء لا ينتهي بعد تسليم المشروع، بل نقدم دعمًا مستمرًا بعد التسليم للتأكد من استمرار عمل المشروع بسلاسة وتلبية احتياجات العميل",
 
   ORPRJCT: "مشاريعنا",
-  coprght: " RISE 2023 © جميع الحقوق محفوظة",
+
   ORFTRS: "مهاراتنا",
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow هي بيئة آمنة وداعمة توفر فرص التعلم للأطفال اللاجئين الذين يقتربون من سن المدرسة في تركيا. مهمتنا هي الكفاح من أجل المساواة في الحصول على تعليم جيد",
@@ -209,7 +209,7 @@ $langData.tr = {
     "Projelerin teslim edilmesinden sonra müşterilerle işbirliğinin sona ermediğine inanıyoruz. Müşteri ihtiyaçlarını karşılamaya ve projenin sorunsuz bir şekilde devam etmesini sağlamaya yönelik sürekli destek sağlıyoruz.",
 
   ORPRJCT: "Projelerimiz",
-  coprght: "Tüm hakları saklıdır, RISE 2023 © Telif Hakkı.",
+
   ORFTRS: "Özelliklerimiz",
   KIDSRANBOWPROJCTTXT:
     "Kids Rainbow, Türkiye'deki okul çağına yaklaşan mülteci çocuklar için öğrenme fırsatları sunan güvenli ve destekleyici bir ortamdır. Misyonumuz, kaliteli eğitime eşit erişim için mücadele etmektir.",
